@@ -1,0 +1,170 @@
+PS C:\Users\Patrick\source\Codeblocks\fitness-tracker-app> docker run -it -v fitness-data:/usr/src/app/data fitness-tracker-app
+[A] Add New Information To Fitness Tracker.
+[B] Print Fitness tracker page.
+[C] Print Food Database.
+[Q] Quit.
+Choice: c
+Ingredients Database: 
+
+Ingredient | Calories
+Oats | 1765
+Beans | 1588
+French fries | 1415
+Honey | 1382
+Steak | 1227
+Fried chicken | 1117
+Cinnamon | 1105
+Chicken | 1085
+Sugar | 1000
+Mussels | 779
+Mac & cheese | 744
+Egg | 708
+Garlic | 676
+Ground beef | 650
+Pasta | 597
+Rice | 591
+Asparagus | 85
+
+[A] Add New Information To Fitness Tracker.
+[B] Print Fitness tracker page.
+[C] Print Food Database.
+[Q] Quit.
+Choice: b
+
+Weight | Weight Goal | BMI | Eaten Calories | BMR | Met goal? | Date |
+
+62.00 | G | 17.7 | 2000 | 1699 | P | Mon Apr 10 22:58:33 2023
+ 61.50 | G | 17.6 | 912 | 1694 | F | Tue Apr 11 01:19:42 2023
+ 63.20 | G | 18.1 | 2480 | 1711 | P | Tue Apr 11 01:32:12 2023
+ 65.00 | L | 18.6 | 577 | 1729 | P | Sat Apr 29 02:33:05 2023
+ 66.00 | G | 186736.1 | 4434 | 582 | P | Fri Sep 29 22:46:40 2023
+ 66.00 | G | 18.7 | 651 | 1745 | F | Fri Sep 29 22:49:57 2023
+ 66.00 | G | 18.9 | 568 | 1739 | F | Sun Oct 15 04:24:07 2023
+ 65.00 | G | 18.6 | 1038 | 1729 | F | Tue Dec 12 18:58:09 2023
+ 66.00 | G | 18.5 | 1406 | 1746 | F | Sat Apr 27 04:27:13 2024
+
+[A] Add New Information To Fitness Tracker.
+[B] Print Fitness tracker page.
+[C] Print Food Database.
+[Q] Quit.
+Choice: A
+How many meals did you have today?
+2
+How many ingredients did your meal 1 have?
+2
+Enter ingredient 1 name:
+Chicken
+Enter the amount in pounds you ate of ingredient 1:
+1
+Enter ingredient 2 name:
+rice
+Enter the amount in pounds you ate of ingredient 2:
+0.5
+How many ingredients did your meal 2 have?
+2
+Enter ingredient 1 name:
+Turkey
+Enter the amount in pounds you ate of ingredient 1:
+1
+There is no record of this ingredient, please enter name again.
+Name: Turkey
+Please enter the ingredient's calories per pound
+Cal Per Pound: 862
+Enter ingredient 2 name: 
+pasta
+Enter the amount in pounds you ate of ingredient 2:
+0.7
+You consumed a total of 2660 calories today
+
+What is your current weight? Please input in kilograms
+70
+What is your height? Please input in centimeters
+189
+Enter your age.
+20
+What is your current weight goal? [G] Gain [S] Stay [L] Lose
+G
+
+As calculated before, you consumed a total of 2660 calories today
+Your current BMI is 19.6
+Given that your current BMR is of 1786 calories, the difference between your calories consumed today and your BMR: 874.15
+You were successful at eating more calories than your body burns, keep it up and gain weight!
+
+70.00   G       19.6    2660    1786    P       Thu Oct 24 05:20:36 2024
+
+[A] Add New Information To Fitness Tracker.
+[B] Print Fitness tracker page.
+[C] Print Food Database.
+[Q] Quit.
+Choice: b
+
+Weight | Weight Goal | BMI | Eaten Calories | BMR | Met goal? | Date |
+
+62.00 | G | 17.7 | 2000 | 1699 | P | Mon Apr 10 22:58:33 2023
+ 61.50 | G | 17.6 | 912 | 1694 | F | Tue Apr 11 01:19:42 2023
+ 63.20 | G | 18.1 | 2480 | 1711 | P | Tue Apr 11 01:32:12 2023
+ 65.00 | L | 18.6 | 577 | 1729 | P | Sat Apr 29 02:33:05 2023
+ 66.00 | G | 186736.1 | 4434 | 582 | P | Fri Sep 29 22:46:40 2023
+ 66.00 | G | 18.7 | 651 | 1745 | F | Fri Sep 29 22:49:57 2023
+ 66.00 | G | 18.9 | 568 | 1739 | F | Sun Oct 15 04:24:07 2023
+ 65.00 | G | 18.6 | 1038 | 1729 | F | Tue Dec 12 18:58:09 2023
+ 66.00 | G | 18.5 | 1406 | 1746 | F | Sat Apr 27 04:27:13 2024
+ 70.00 | G | 19.6 | 2660 | 1786 | P | Thu Oct 24 05:20:36 2024
+
+[A] Add New Information To Fitness Tracker.
+[B] Print Fitness tracker page.
+[C] Print Food Database.
+[Q] Quit.
+Choice: c
+Ingredients Database:
+
+Ingredient | Calories
+Oats | 1765
+Beans | 1588
+French fries | 1415
+Honey | 1382
+Steak | 1227
+Fried chicken | 1117
+Cinnamon | 1105
+Chicken | 1085
+Sugar | 1000
+Turkey | 862
+Mussels | 779
+Mac & cheese | 744
+Egg | 708
+Garlic | 676
+Ground beef | 650
+Pasta | 597
+Rice | 591
+Asparagus | 85
+
+[A] Add New Information To Fitness Tracker.
+[B] Print Fitness tracker page.
+[C] Print Food Database.
+[Q] Quit.
+Choice: q
+PS C:\Users\Patrick\source\Codeblocks\fitness-tracker-app> docker run -it -v fitness-data:/usr/src/app/data fitness-tracker-app
+[A] Add New Information To Fitness Tracker.
+[B] Print Fitness tracker page.
+[C] Print Food Database.
+[Q] Quit.
+Choice: b
+
+Weight | Weight Goal | BMI | Eaten Calories | BMR | Met goal? | Date |
+
+62.00 | G | 17.7 | 2000 | 1699 | P | Mon Apr 10 22:58:33 2023
+ 61.50 | G | 17.6 | 912 | 1694 | F | Tue Apr 11 01:19:42 2023
+ 63.20 | G | 18.1 | 2480 | 1711 | P | Tue Apr 11 01:32:12 2023
+ 65.00 | L | 18.6 | 577 | 1729 | P | Sat Apr 29 02:33:05 2023
+ 66.00 | G | 186736.1 | 4434 | 582 | P | Fri Sep 29 22:46:40 2023
+ 66.00 | G | 18.7 | 651 | 1745 | F | Fri Sep 29 22:49:57 2023
+ 66.00 | G | 18.9 | 568 | 1739 | F | Sun Oct 15 04:24:07 2023
+ 65.00 | G | 18.6 | 1038 | 1729 | F | Tue Dec 12 18:58:09 2023
+ 66.00 | G | 18.5 | 1406 | 1746 | F | Sat Apr 27 04:27:13 2024
+ 70.00 | G | 19.6 | 2660 | 1786 | P | Thu Oct 24 05:20:36 2024
+
+[A] Add New Information To Fitness Tracker.
+[B] Print Fitness tracker page.
+[C] Print Food Database.
+[Q] Quit.
+Choice: q

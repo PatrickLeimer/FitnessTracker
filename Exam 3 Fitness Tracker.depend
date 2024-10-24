@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1681177020 source:c:\users\patrick\source\codeblocks\exam 3 fitness tracker\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<stdbool.h>
+	"BmrAndBmi.h"
+
+1681166237 c:\users\patrick\source\codeblocks\exam 3 fitness tracker\bmrandbmi.h
+	<ctype.h>
+
